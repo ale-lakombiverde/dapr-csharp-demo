@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vM3flJbh05p/sTR6zJj8rkdK5tpVDsOqHteRUg2Mwv8=",
+  "Source": "Orders.Processor",
+  "BasePath": "_content/Orders.Processor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
