@@ -25,7 +25,13 @@
   // "postCreateCommand": "uname -a",
   // Configure tool-specific properties.
   "customizations": {
-    "extensions": ["ms-azuretools.vscode-dapr"]
+    "vscode": {
+      "extensions": [
+		"ms-azuretools.vscode-dapr",
+		"eamodio.gitlens",
+		"ms-azuretools.vscode-bicep"
+	]
+    }
   }
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   //"remoteUser": "root"
