@@ -5,9 +5,10 @@
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0-jammy",
   "features": {
-    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    //"ghcr.io/devcontainers/features/azure-cli:1": {},
     //"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},    
     // Install the Dapr CLI
+    "ghcr.io/devcontainers/features/dotnet:1": {},
     "ghcr.io/dapr/cli/dapr-cli:latest": {},
     // Enable Docker (via Docker-in-Docker)
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
